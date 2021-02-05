@@ -1,0 +1,40 @@
+:root {
+  --base: #3fb9f2;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  height: 500px;
+  width: 700px;
+}
+body {
+  text-align: center;
+}
+
+.h1 {
+  color: var(--base);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+body {
+  background: #032b3d;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.controls {
+  margin: 20px;
+}
+
+input {
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+}
